@@ -3,7 +3,7 @@ Feature: Running Cucumber with Protractor
   I should be able to use Cucumber
   to run my E2E tests
 
-  Scenario: Wrapping WebDriver
+  Scenario: Check Homepage
     Given I go on "index.html"
     Then the title should equal "My AngularJS App"
     And the menu should contain "Home"

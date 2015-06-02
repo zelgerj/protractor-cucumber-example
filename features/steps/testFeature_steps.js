@@ -12,7 +12,7 @@ module.exports = function() {
   //var ptor = protractor.getInstance();
 
   this.Given(/^I go on "([^"]*)"$/, function (arg1, callback) {
-    browser.get('http://localhost:9001');
+    browser.get('http://localhost:9101/' + arg1);
     callback()
   });
 
